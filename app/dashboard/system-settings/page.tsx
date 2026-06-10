@@ -27,7 +27,7 @@ export default function SystemSettingsPage() {
   const [user, setUser] = useState<any>(null)
   const [importDialogOpen, setImportDialogOpen] = useState(false)
   const [systemSettings, setSystemSettings] = useState({
-    siteName: "TERMLY Academic System",
+    siteName: "NexaLink Academic System",
     siteDescription: "Comprehensive Academic Management Platform",
     maintenanceMode: false,
     registrationEnabled: false,

@@ -1,5 +1,5 @@
 -- =====================================================
--- TERMLY Academic System - Complete PostgreSQL Schema
+-- NexaLink Academic System - Complete PostgreSQL Schema
 -- Compatible with Supabase
 -- =====================================================
 
@@ -2361,7 +2361,7 @@ $$ LANGUAGE plpgsql;
 -- COMMENTS AND DOCUMENTATION
 -- =====================================================
 
-COMMENT ON DATABASE postgres IS 'TERMLY Academic Management System Database';
+COMMENT ON DATABASE postgres IS 'NexaLink Academic Management System Database';
 
 COMMENT ON TABLE users IS 'Main user table storing all system users with role-based access';
 COMMENT ON TABLE students IS 'Student-specific information and academic details';
@@ -2394,7 +2394,7 @@ INSERT INTO users (
     role, department, is_active, is_verified
 ) VALUES (
     'admin',
-    'admin@termly.edu',
+    'admin@nexalink.edu',
     crypt('admin123', gen_salt('bf')),
     'System',
     'Administrator',
@@ -2410,7 +2410,7 @@ INSERT INTO users (
     role, department, is_active, is_verified
 ) VALUES (
     'principal',
-    'principal@termly.edu',
+    'principal@nexalink.edu',
     crypt('principal123', gen_salt('bf')),
     'College',
     'Principal',
@@ -2433,7 +2433,7 @@ SELECT
     'Principal Office',
     '9:00 AM - 5:00 PM'
 FROM users u 
-WHERE u.email = 'principal@termly.edu'
+WHERE u.email = 'principal@nexalink.edu'
 ON CONFLICT (user_id) DO NOTHING;
 
 -- =====================================================
@@ -2451,7 +2451,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- Final message
-SELECT 'TERMLY Academic System Database Schema with Admin/Principal Login and CSV Import Capability Created Successfully!' as status;
+SELECT 'NexaLink Academic System Database Schema with Admin/Principal Login and CSV Import Capability Created Successfully!' as status;
 -- Enable the uuid-ossp extension if not already enabled
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 

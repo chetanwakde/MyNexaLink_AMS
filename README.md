@@ -1,4 +1,4 @@
-# TERMLY Academic System
+# Fork of nexalinkacademicsystem8
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
@@ -14,7 +14,7 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 Your project is live at:
 
-**TERMLY deployment:** [https://vercel.com/asds-projects-a7a33254/v0-fork-of-nexalinkacademicsystem8](https://vercel.com/asds-projects-a7a33254/v0-fork-of-nexalinkacademicsystem8)
+**[https://vercel.com/asds-projects-a7a33254/v0-fork-of-nexalinkacademicsystem8](https://vercel.com/asds-projects-a7a33254/v0-fork-of-nexalinkacademicsystem8)**
 
 ## Build your app
 

@@ -17,7 +17,7 @@ export const viewport = {
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "TERMLY Academic System",
+  title: "MyNexaLink Academic System",
   description: "Comprehensive academic management system for educational institutions",
     generator: 'v0.dev'
 }
